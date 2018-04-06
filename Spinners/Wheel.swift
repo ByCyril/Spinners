@@ -21,7 +21,8 @@ import UIKit
 class Wheel: SpinnerDelegate {
     
     public override init() {
-        
+        super.init()
+        self.setCenter(with: CGPoint(x: 0, y: 0))
     }
     
     private func animation() -> [CABasicAnimation] {
