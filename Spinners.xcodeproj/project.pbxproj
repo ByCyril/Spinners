@@ -101,7 +101,6 @@
 				015D6A6B20781E52002841C9 /* Bubble.swift */,
 				015D6A6C20781E52002841C9 /* Cube.swift */,
 				015D6A6D20781E52002841C9 /* Custom.swift */,
-				015D6A7820781E66002841C9 /* Views */,
 			);
 			path = Spinners;
 			sourceTree = "<group>";
@@ -113,13 +112,6 @@
 				015D6A6020781E47002841C9 /* Info.plist */,
 			);
 			path = SpinnersTests;
-			sourceTree = "<group>";
-		};
-		015D6A7820781E66002841C9 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
