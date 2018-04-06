@@ -10,6 +10,20 @@
 		015D6A5A20781E47002841C9 /* Spinners.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 015D6A5020781E47002841C9 /* Spinners.framework */; };
 		015D6A5F20781E47002841C9 /* SpinnersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015D6A5E20781E47002841C9 /* SpinnersTests.swift */; };
 		015D6A6120781E47002841C9 /* Spinners.h in Headers */ = {isa = PBXBuildFile; fileRef = 015D6A5320781E47002841C9 /* Spinners.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		015D6A6E20781E52002841C9 /* Wheel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015D6A6A20781E51002841C9 /* Wheel.swift */; };
+		015D6A6F20781E52002841C9 /* Bubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015D6A6B20781E52002841C9 /* Bubble.swift */; };
+		015D6A7020781E52002841C9 /* Cube.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015D6A6C20781E52002841C9 /* Cube.swift */; };
+		015D6A7120781E52002841C9 /* Custom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015D6A6D20781E52002841C9 /* Custom.swift */; };
+		015D6A7520781E63002841C9 /* SpinnerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015D6A7220781E63002841C9 /* SpinnerView.swift */; };
+		015D6A7620781E63002841C9 /* Spinners.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015D6A7320781E63002841C9 /* Spinners.swift */; };
+		015D6A7720781E63002841C9 /* SpinnerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015D6A7420781E63002841C9 /* SpinnerDelegate.swift */; };
+		015D6A7920781E99002841C9 /* Spinners.swift in Headers */ = {isa = PBXBuildFile; fileRef = 015D6A7320781E63002841C9 /* Spinners.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		015D6A7A20781E99002841C9 /* SpinnerView.swift in Headers */ = {isa = PBXBuildFile; fileRef = 015D6A7220781E63002841C9 /* SpinnerView.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		015D6A7B20781E99002841C9 /* SpinnerDelegate.swift in Headers */ = {isa = PBXBuildFile; fileRef = 015D6A7420781E63002841C9 /* SpinnerDelegate.swift */; };
+		015D6A7C20781E99002841C9 /* Wheel.swift in Headers */ = {isa = PBXBuildFile; fileRef = 015D6A6A20781E51002841C9 /* Wheel.swift */; };
+		015D6A7D20781E99002841C9 /* Bubble.swift in Headers */ = {isa = PBXBuildFile; fileRef = 015D6A6B20781E52002841C9 /* Bubble.swift */; };
+		015D6A7E20781E99002841C9 /* Cube.swift in Headers */ = {isa = PBXBuildFile; fileRef = 015D6A6C20781E52002841C9 /* Cube.swift */; };
+		015D6A7F20781E99002841C9 /* Custom.swift in Headers */ = {isa = PBXBuildFile; fileRef = 015D6A6D20781E52002841C9 /* Custom.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +43,13 @@
 		015D6A5920781E47002841C9 /* SpinnersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpinnersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		015D6A5E20781E47002841C9 /* SpinnersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinnersTests.swift; sourceTree = "<group>"; };
 		015D6A6020781E47002841C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		015D6A6A20781E51002841C9 /* Wheel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wheel.swift; sourceTree = "<group>"; };
+		015D6A6B20781E52002841C9 /* Bubble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bubble.swift; sourceTree = "<group>"; };
+		015D6A6C20781E52002841C9 /* Cube.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cube.swift; sourceTree = "<group>"; };
+		015D6A6D20781E52002841C9 /* Custom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Custom.swift; sourceTree = "<group>"; };
+		015D6A7220781E63002841C9 /* SpinnerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpinnerView.swift; sourceTree = "<group>"; };
+		015D6A7320781E63002841C9 /* Spinners.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Spinners.swift; sourceTree = "<group>"; };
+		015D6A7420781E63002841C9 /* SpinnerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpinnerDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +94,10 @@
 			children = (
 				015D6A5320781E47002841C9 /* Spinners.h */,
 				015D6A5420781E47002841C9 /* Info.plist */,
+				015D6A7320781E63002841C9 /* Spinners.swift */,
+				015D6A7220781E63002841C9 /* SpinnerView.swift */,
+				015D6A7420781E63002841C9 /* SpinnerDelegate.swift */,
+				015D6A7820781E66002841C9 /* Views */,
 			);
 			path = Spinners;
 			sourceTree = "<group>";
@@ -86,6 +111,17 @@
 			path = SpinnersTests;
 			sourceTree = "<group>";
 		};
+		015D6A7820781E66002841C9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				015D6A6A20781E51002841C9 /* Wheel.swift */,
+				015D6A6B20781E52002841C9 /* Bubble.swift */,
+				015D6A6C20781E52002841C9 /* Cube.swift */,
+				015D6A6D20781E52002841C9 /* Custom.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -94,6 +130,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				015D6A6120781E47002841C9 /* Spinners.h in Headers */,
+				015D6A7920781E99002841C9 /* Spinners.swift in Headers */,
+				015D6A7A20781E99002841C9 /* SpinnerView.swift in Headers */,
+				015D6A7B20781E99002841C9 /* SpinnerDelegate.swift in Headers */,
+				015D6A7C20781E99002841C9 /* Wheel.swift in Headers */,
+				015D6A7D20781E99002841C9 /* Bubble.swift in Headers */,
+				015D6A7E20781E99002841C9 /* Cube.swift in Headers */,
+				015D6A7F20781E99002841C9 /* Custom.swift in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,6 +237,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				015D6A6E20781E52002841C9 /* Wheel.swift in Sources */,
+				015D6A7720781E63002841C9 /* SpinnerDelegate.swift in Sources */,
+				015D6A7620781E63002841C9 /* Spinners.swift in Sources */,
+				015D6A7520781E63002841C9 /* SpinnerView.swift in Sources */,
+				015D6A6F20781E52002841C9 /* Bubble.swift in Sources */,
+				015D6A7120781E52002841C9 /* Custom.swift in Sources */,
+				015D6A7020781E52002841C9 /* Cube.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -389,6 +439,7 @@
 		015D6A6820781E47002841C9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R986STKYJ7;
 				INFOPLIST_FILE = SpinnersTests/Info.plist;
@@ -407,6 +458,7 @@
 		015D6A6920781E47002841C9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R986STKYJ7;
 				INFOPLIST_FILE = SpinnersTests/Info.plist;
