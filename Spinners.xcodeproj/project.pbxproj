@@ -97,6 +97,10 @@
 				015D6A7320781E63002841C9 /* Spinners.swift */,
 				015D6A7220781E63002841C9 /* SpinnerView.swift */,
 				015D6A7420781E63002841C9 /* SpinnerDelegate.swift */,
+				015D6A6A20781E51002841C9 /* Wheel.swift */,
+				015D6A6B20781E52002841C9 /* Bubble.swift */,
+				015D6A6C20781E52002841C9 /* Cube.swift */,
+				015D6A6D20781E52002841C9 /* Custom.swift */,
 				015D6A7820781E66002841C9 /* Views */,
 			);
 			path = Spinners;
@@ -114,10 +118,6 @@
 		015D6A7820781E66002841C9 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				015D6A6A20781E51002841C9 /* Wheel.swift */,
-				015D6A6B20781E52002841C9 /* Bubble.swift */,
-				015D6A6C20781E52002841C9 /* Cube.swift */,
-				015D6A6D20781E52002841C9 /* Custom.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
