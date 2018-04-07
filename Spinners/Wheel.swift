@@ -48,14 +48,29 @@ class Wheel: SpinnerDelegate {
         return [animationOne, animationTwo]
     }
     
+    private func viewStyle(view: UIView) -> CAShapeLayer {
+        let borderStyle = CAShapeLayer()
+        borderStyle.strokeColor = UIColor.black.cgColor
+        borderStyle.lineDashPattern = [2, 2]
+        borderStyle.frame = view.bounds
+        borderStyle.fillColor = nil
+        borderStyle.path = UIBezierPath(rect: view.bounds).cgPath
+        
+        return borderStyle
+    }
+    
     public func createViews() -> [UIView]{
         
         let outerLayer: UIView = {
+         
+            
             let view = UIView()
             view.frame.size = CGSize(width: 55, height: 55)
             view.backgroundColor = UIColor.blue
             view.center = self.getCenter()
             view.layer.cornerRadius = 15
+            view.layer.addSublayer(viewStyle(view: view))
+
             return view
         }()
     
@@ -65,6 +80,8 @@ class Wheel: SpinnerDelegate {
             view.backgroundColor = UIColor.clear
             view.center = self.getCenter()
             view.layer.cornerRadius = 10
+            view.layer.addSublayer(viewStyle(view: view))
+            
             return view
         }()
         
