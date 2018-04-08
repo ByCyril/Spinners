@@ -68,7 +68,6 @@ You can change the color of the spinners to match your application color scheme.
 
 ```
 spinners.setCustomSettings(borderColor: <UIColor>, backgroundColor: <UIColor>, alpha: <CGFloat>)
-
 ```
 
 ### 4) Custom type
