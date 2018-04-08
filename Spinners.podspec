@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Spinners'
-  s.version          = '1.0'
+  s.version          = '1.1'
   s.summary          = 'Dynamic Activity Indicators.'
   s.swift_version    = '4.0'
   s.description      = <<-DESC
