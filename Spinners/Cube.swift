@@ -1,19 +1,21 @@
-//  Copyright <2018> <By Cyril>
-//
-//  Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction,
-//  including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so,
-//  subject to the following conditions:
-//
-//  The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-//
-//  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
-//  IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-//  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-//  Spinners.swift
-//  Spinners
 //
 //  Created by Cyril Garcia on 4/3/18.
 //  Copyright © 2018 Cyril Garcia. All rights reserved.
+//
+//  Permission is hereby granted, free of charge, to any person obtaining a copy of this software
+//  and associated documentation files (the "Software"), to deal in the Software without restriction,
+//  including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense,
+//  and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so,
+//  subject to the following conditions:
+//
+//  The above copyright notice and this permission notice shall be included
+//  in all copies or substantial portions of the Software.
+//
+//  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,
+//  INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+//  IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
+//  WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+//  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 //
 
 import UIKit
@@ -28,7 +30,6 @@ class Cube: SpinnerDelegate {
     
     private func animations() -> [CABasicAnimation] {
         
-       
         let animationOne: CABasicAnimation = {
             let animation = CABasicAnimation(keyPath: "transform.rotation")
             animation.fromValue = 0.0
@@ -47,25 +48,14 @@ class Cube: SpinnerDelegate {
             return animation
         }()
         
-        return [animationOne, animationTwo]
+        return [animationTwo, animationOne]
     }
     
     public func createViews() -> [UIView] {
         
-        let outerView: UIView = {
-            let view = UIView()
-            view.frame.size = getSize()
-            view.center = getCenter()
-            view.backgroundColor = self.settings!.backgroundColor
-            view.layer.borderColor = self.settings!.borderColor.cgColor
-            view.layer.borderWidth = 2
-            view.layer.cornerRadius = 15
-            return view
-        }()
-        
         let innerView: UIView = {
             let view = UIView()
-            view.frame.size = getSize()
+            view.frame.size = CGSize(width: 50, height: 50)
             view.center = getCenter()
             view.layer.cornerRadius = 15
             view.layer.borderColor = self.settings!.borderColor.cgColor
@@ -74,7 +64,18 @@ class Cube: SpinnerDelegate {
             return view
         }()
         
-        let views = [outerView, innerView]
+        let smallerView: UIView = {
+            let view = UIView()
+            view.frame.size = CGSize(width: 25, height: 25)
+            view.center = getCenter()
+            view.layer.cornerRadius = 15
+            view.layer.borderColor = self.settings!.borderColor.cgColor
+            view.backgroundColor = self.settings!.backgroundColor
+            view.layer.borderWidth = 2
+            return view
+        }()
+        
+        let views = [innerView, smallerView]
         
         for i in 0..<animations().count {
             views[i].layer.add(animations()[i], forKey: nil)

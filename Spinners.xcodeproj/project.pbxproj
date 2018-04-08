@@ -10,20 +10,13 @@
 		015D6A5A20781E47002841C9 /* Spinners.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 015D6A5020781E47002841C9 /* Spinners.framework */; };
 		015D6A5F20781E47002841C9 /* SpinnersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015D6A5E20781E47002841C9 /* SpinnersTests.swift */; };
 		015D6A6120781E47002841C9 /* Spinners.h in Headers */ = {isa = PBXBuildFile; fileRef = 015D6A5320781E47002841C9 /* Spinners.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		015D6A6E20781E52002841C9 /* Wheel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015D6A6A20781E51002841C9 /* Wheel.swift */; };
-		015D6A6F20781E52002841C9 /* Bubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015D6A6B20781E52002841C9 /* Bubble.swift */; };
-		015D6A7020781E52002841C9 /* Cube.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015D6A6C20781E52002841C9 /* Cube.swift */; };
-		015D6A7120781E52002841C9 /* Custom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015D6A6D20781E52002841C9 /* Custom.swift */; };
-		015D6A7520781E63002841C9 /* SpinnerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015D6A7220781E63002841C9 /* SpinnerView.swift */; };
-		015D6A7620781E63002841C9 /* Spinners.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015D6A7320781E63002841C9 /* Spinners.swift */; };
-		015D6A7720781E63002841C9 /* SpinnerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015D6A7420781E63002841C9 /* SpinnerDelegate.swift */; };
-		015D6A7920781E99002841C9 /* Spinners.swift in Headers */ = {isa = PBXBuildFile; fileRef = 015D6A7320781E63002841C9 /* Spinners.swift */; settings = {ATTRIBUTES = (Public, ); }; };
-		015D6A7A20781E99002841C9 /* SpinnerView.swift in Headers */ = {isa = PBXBuildFile; fileRef = 015D6A7220781E63002841C9 /* SpinnerView.swift */; settings = {ATTRIBUTES = (Public, ); }; };
-		015D6A7B20781E99002841C9 /* SpinnerDelegate.swift in Headers */ = {isa = PBXBuildFile; fileRef = 015D6A7420781E63002841C9 /* SpinnerDelegate.swift */; };
-		015D6A7C20781E99002841C9 /* Wheel.swift in Headers */ = {isa = PBXBuildFile; fileRef = 015D6A6A20781E51002841C9 /* Wheel.swift */; };
-		015D6A7D20781E99002841C9 /* Bubble.swift in Headers */ = {isa = PBXBuildFile; fileRef = 015D6A6B20781E52002841C9 /* Bubble.swift */; };
-		015D6A7E20781E99002841C9 /* Cube.swift in Headers */ = {isa = PBXBuildFile; fileRef = 015D6A6C20781E52002841C9 /* Cube.swift */; };
-		015D6A7F20781E99002841C9 /* Custom.swift in Headers */ = {isa = PBXBuildFile; fileRef = 015D6A6D20781E52002841C9 /* Custom.swift */; };
+		76CD574C20799E09002CD585 /* Wheel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CD574520799E09002CD585 /* Wheel.swift */; };
+		76CD574D20799E09002CD585 /* SpinnerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CD574620799E09002CD585 /* SpinnerDelegate.swift */; };
+		76CD574E20799E09002CD585 /* Cube.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CD574720799E09002CD585 /* Cube.swift */; };
+		76CD574F20799E09002CD585 /* Custom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CD574820799E09002CD585 /* Custom.swift */; };
+		76CD575020799E09002CD585 /* SpinnerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CD574920799E09002CD585 /* SpinnerView.swift */; };
+		76CD575120799E09002CD585 /* Bubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CD574A20799E09002CD585 /* Bubble.swift */; };
+		76CD575220799E09002CD585 /* Spinners.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CD574B20799E09002CD585 /* Spinners.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,13 +36,13 @@
 		015D6A5920781E47002841C9 /* SpinnersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpinnersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		015D6A5E20781E47002841C9 /* SpinnersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinnersTests.swift; sourceTree = "<group>"; };
 		015D6A6020781E47002841C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		015D6A6A20781E51002841C9 /* Wheel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wheel.swift; sourceTree = "<group>"; };
-		015D6A6B20781E52002841C9 /* Bubble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bubble.swift; sourceTree = "<group>"; };
-		015D6A6C20781E52002841C9 /* Cube.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cube.swift; sourceTree = "<group>"; };
-		015D6A6D20781E52002841C9 /* Custom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Custom.swift; sourceTree = "<group>"; };
-		015D6A7220781E63002841C9 /* SpinnerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpinnerView.swift; sourceTree = "<group>"; };
-		015D6A7320781E63002841C9 /* Spinners.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Spinners.swift; sourceTree = "<group>"; };
-		015D6A7420781E63002841C9 /* SpinnerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpinnerDelegate.swift; sourceTree = "<group>"; };
+		76CD574520799E09002CD585 /* Wheel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Wheel.swift; sourceTree = "<group>"; };
+		76CD574620799E09002CD585 /* SpinnerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpinnerDelegate.swift; sourceTree = "<group>"; };
+		76CD574720799E09002CD585 /* Cube.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cube.swift; sourceTree = "<group>"; };
+		76CD574820799E09002CD585 /* Custom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Custom.swift; sourceTree = "<group>"; };
+		76CD574920799E09002CD585 /* SpinnerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpinnerView.swift; sourceTree = "<group>"; };
+		76CD574A20799E09002CD585 /* Bubble.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bubble.swift; sourceTree = "<group>"; };
+		76CD574B20799E09002CD585 /* Spinners.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Spinners.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,13 +87,13 @@
 			children = (
 				015D6A5320781E47002841C9 /* Spinners.h */,
 				015D6A5420781E47002841C9 /* Info.plist */,
-				015D6A7320781E63002841C9 /* Spinners.swift */,
-				015D6A7220781E63002841C9 /* SpinnerView.swift */,
-				015D6A7420781E63002841C9 /* SpinnerDelegate.swift */,
-				015D6A6A20781E51002841C9 /* Wheel.swift */,
-				015D6A6B20781E52002841C9 /* Bubble.swift */,
-				015D6A6C20781E52002841C9 /* Cube.swift */,
-				015D6A6D20781E52002841C9 /* Custom.swift */,
+				76CD574A20799E09002CD585 /* Bubble.swift */,
+				76CD574720799E09002CD585 /* Cube.swift */,
+				76CD574820799E09002CD585 /* Custom.swift */,
+				76CD574520799E09002CD585 /* Wheel.swift */,
+				76CD574B20799E09002CD585 /* Spinners.swift */,
+				76CD574920799E09002CD585 /* SpinnerView.swift */,
+				76CD574620799E09002CD585 /* SpinnerDelegate.swift */,
 			);
 			path = Spinners;
 			sourceTree = "<group>";
@@ -122,13 +115,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				015D6A6120781E47002841C9 /* Spinners.h in Headers */,
-				015D6A7920781E99002841C9 /* Spinners.swift in Headers */,
-				015D6A7A20781E99002841C9 /* SpinnerView.swift in Headers */,
-				015D6A7B20781E99002841C9 /* SpinnerDelegate.swift in Headers */,
-				015D6A7C20781E99002841C9 /* Wheel.swift in Headers */,
-				015D6A7D20781E99002841C9 /* Bubble.swift in Headers */,
-				015D6A7E20781E99002841C9 /* Cube.swift in Headers */,
-				015D6A7F20781E99002841C9 /* Custom.swift in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,13 +215,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				015D6A6E20781E52002841C9 /* Wheel.swift in Sources */,
-				015D6A7720781E63002841C9 /* SpinnerDelegate.swift in Sources */,
-				015D6A7620781E63002841C9 /* Spinners.swift in Sources */,
-				015D6A7520781E63002841C9 /* SpinnerView.swift in Sources */,
-				015D6A6F20781E52002841C9 /* Bubble.swift in Sources */,
-				015D6A7120781E52002841C9 /* Custom.swift in Sources */,
-				015D6A7020781E52002841C9 /* Cube.swift in Sources */,
+				76CD574D20799E09002CD585 /* SpinnerDelegate.swift in Sources */,
+				76CD575120799E09002CD585 /* Bubble.swift in Sources */,
+				76CD575020799E09002CD585 /* SpinnerView.swift in Sources */,
+				76CD574C20799E09002CD585 /* Wheel.swift in Sources */,
+				76CD575220799E09002CD585 /* Spinners.swift in Sources */,
+				76CD574F20799E09002CD585 /* Custom.swift in Sources */,
+				76CD574E20799E09002CD585 /* Cube.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

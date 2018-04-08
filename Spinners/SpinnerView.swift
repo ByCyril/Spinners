@@ -1,19 +1,21 @@
-//  Copyright <2018> <By Cyril>
-//
-//  Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction,
-//  including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so,
-//  subject to the following conditions:
-//
-//  The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-//
-//  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
-//  IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-//  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-//  Spinners.swift
-//  Spinners
 //
 //  Created by Cyril Garcia on 4/3/18.
 //  Copyright © 2018 Cyril Garcia. All rights reserved.
+//
+//  Permission is hereby granted, free of charge, to any person obtaining a copy of this software
+//  and associated documentation files (the "Software"), to deal in the Software without restriction,
+//  including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense,
+//  and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so,
+//  subject to the following conditions:
+//
+//  The above copyright notice and this permission notice shall be included
+//  in all copies or substantial portions of the Software.
+//
+//  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,
+//  INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+//  IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
+//  WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+//  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 //
 
 import UIKit
@@ -67,10 +69,6 @@ public class SpinnerView: UIView {
         self.imageName = imageName
     }
     
-    /**
-     Called when custom setting was not declared by the developer.
-     */
-    
     public func wheel() {
         let wheel = Wheel()
 
@@ -87,9 +85,7 @@ public class SpinnerView: UIView {
         self.views = wheel.createViews()
         self.addViews(with: wheel.createViews())
     }
-    /**
-     Called when custom setting was not declared by the developer.
-     */
+
     public func bubble() {
         let bubble = Bubble()
         
@@ -104,9 +100,7 @@ public class SpinnerView: UIView {
         self.views = bubble.createViews()
         self.addViews(with: bubble.createViews())
     }
-    /**
-     Called when custom setting was not declared by the developer.
-     */
+
     public func cube() {
         let cube = Cube()
         
@@ -135,7 +129,7 @@ public class SpinnerView: UIView {
         }
     }
     /**
-     Called when custom setting was not declared by the developer.
+     Called to add spinner to views
      */
     private func addViews(with views: [UIView]) {
         for view in views {
@@ -144,7 +138,7 @@ public class SpinnerView: UIView {
     }
     
     /**
-     Called when custom setting was not declared by the developer.
+     Called to remove spinners
      */
     public func removeViews() {
         for view in self.subviews {
