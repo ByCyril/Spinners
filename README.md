@@ -8,6 +8,16 @@
 |         ```void```         | ```setCustomImage(with: <image_name>)``` | Adds custom image for custom type spinner
 |         ```void```         | ```setCustomSettings(borderColor: <UIColor>, backgroundColor: <UIColor>, alpha: <CGFloat>)``` | Set color scheme of spinners
 
+# Styles
+
+### 1) Bubble
+<img src="https://raw.githubusercontent.com/cyrilivargarcia/Spinners/master/images/bubble.gif" width="250" height="250" />
+
+### 2) Cube
+<img src="https://raw.githubusercontent.com/cyrilivargarcia/Spinners/master/images/cube.gif" width="250" height="250" />
+
+### 3) Wheel
+<img src="https://raw.githubusercontent.com/cyrilivargarcia/Spinners/master/images/wheel.gif" width="250" height="250" />
 
 
 # Manual Install
